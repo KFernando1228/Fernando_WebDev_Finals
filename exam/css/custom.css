@@ -30,5 +30,34 @@
       background-color: #777;
 
     }
-
+nav {
+ display: flex;
+ justify-content: space-between;
+ align-items:center;
+ height:60px;
+ background-color:#03254c;
+ box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+ padding:0px 5%;
+ 
+}
+nav ul{
+ display: flex;
+}
+nav ul li a{
+ margin:30px;
+ font-family:myriad pro regular;
+ color:#FFFFFF;
+ font-size: 15px;
+ font-weight:700;
+}
+ul{
+ list-style:none;
+}
+a{
+ text-decoration:none;
+}
+  .header{
+ font-family:calibri;
+ color:#FFFFFF;
+ font-size: 22px;
 
